@@ -14,7 +14,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="animate.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
 
     <meta name="seznam-wmt" content="fGTHs1RJsMMEI34zAMTudoKoOXnmUGaM" />
 
@@ -32,19 +34,20 @@
 <!-- hlavička  -->
 <div class="hlavicka">
 
-    <h1>LM - wooden interier </h1>
+    <h1 class="animate__animated animate__bounceInDown">LM - wooden interier </h1>
 
-    <h2>Schody, jaké neznáte</h2>
+    <h2 class="animate__animated animate__fadeIn animate__delay-1s">Schody, jaké neznáte</h2>
 
-    <p class="text"> Sháníte nové schody nebo jen potřebujete zrenovovat staré? Pak jste tady správně. Nabízím pečlivě provedenou práci, se kterou budete nadmíru spokojeni.</p>
+    <p class=" hlavicka-text animate__animated animate__fadeIn animate__delay-1s"> Sháníte nové schody nebo jen potřebujete zrenovovat staré? Pak jste tady správně. Nabízím pečlivě provedenou práci, se kterou budete nadmíru spokojeni.</p>
     <p>
     </p>
 
-    <div class="autor">Lukáš Marušák
-        <!--
-        <div class="hlavickaobrazek">
-            <img src="20210813_1232471(2).jpg" alt="schody">
-        </div> -->
+    <div class="autor animate__animated animate__fadeIn animate__delay-1s">Lukáš Marušák
+
+        <!--  <div class="hlavickaobrazek">
+            <img src="logo-lm.svg" alt="logo">
+        </div>-->
+
     </div>
 
 
@@ -55,9 +58,9 @@
 
 
 <!-- Menu  -->
-<div class="telo">
+<div class="telo animate__animated animate__fadeIn animate__delay-2s">
 
-    <ul class="menu" id="menu">
+    <ul data-wow-delay="0,5s" class="menu animate__animated animate__fadeIn  wow slideInLeft" id="menu">
 
         <li><a href="#proc">Co nabízím</a> </li>
         <li><a href="#videt">Typy schodišť</a> </li>
@@ -78,6 +81,7 @@
 
         <p>Typy schodů, jejichž montáž nabízím, si můžete prohlédnout na stránkách firmy TOPSTEP s.r.o. <br>
 
+
             Odkaz na jejich stránky: <a href="https://www.topstep.cz/" target="_blank">www.topstep.cz</a>
         </p>
 
@@ -85,14 +89,14 @@
 
 
     </div>
-    <div class="obrazek">
+    <div data-wow-delay="0.5s" class="obrazek animate__animated animate__fadeIn  wow slideInLeft">
         <img class="obrazek" src="20210723_122940.jpg" alt="schody">
         <p class="popisek"> Photo &copy; Lukáš Marušák </p>
 
     </div>
 
     <!-- Sekce Čím se zabýváme  -->
-    <div class="proc" id="videt">
+    <div data-wow-delay="0.5s" class="proc animate__animated animate__fadeIn  wow slideInLeft" id="videt">
         <h2 class="linka">Typy schodišť</h2>
 
         <p>Nabízím Vám hned několik realizací schodišť. Vybírat můžete z následující nabídky:</p>
@@ -122,7 +126,7 @@
 
 
     <!-- Sekce Ceník  -->
-    <div class="proc" id="cenik">
+    <div data-wow-delay="0.5s" class="proc animate__animated animate__fadeIn  wow slideInLeft" id="cenik">
         <h2 class="linka">Ceník služeb</h2>
 
         <p>Každá jednotlivá realizace schodů je něčím výjimečná a specifická. Proto nemám jednotnou sazbu a ceny stanovuji individuálně. </p>
@@ -133,7 +137,7 @@
 
     <!-- Sekce Fotogalerie  -->
 
-    <div class="fotogalerie" id="fotogalerie">
+    <div data-wow-delay="0.5s" class="fotogalerie animate__animated animate__fadeIn  wow slideInLeft" id="fotogalerie">
         <h2 class="linka">Fotogalerie</h2>
 
         <p>Zde najdete ukázku mých realizací různých variant schodišť, kterou mám v nabídce.</p>
@@ -141,95 +145,235 @@
 
 
 
+
+
+        <!-- Slideshow container -->
+
+
+        <div data-wow-delay="0.5s" class="slideshow-container fade animate__animated animate__fadeIn  wow slideInLeft">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 15</div>
+                <img src="20220303-0007.jpg" style="width:100%">
+                <div class="text">vinylové schody</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 15</div>
+                <img src="20200808_130955.jpg" style="width:100%">
+                <div class="text">vinylové schody</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 15</div>
+                <img src="20201207_184353.jpg" style="width:100%">
+                <div class="text">vinylové schody</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 15</div>
+                <img src="20180118_133606(0).jpg" style="width:100%">
+                <div class="text">laminátové schody </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 15</div>
+                <img src="20200510_131005.jpg" style="width:100%">
+                <div class="text">laminátové schody</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 15</div>
+                <img src="20210723_123323.jpg" style="width:100%">
+                <div class="text">laminátové schody</div>
+            </div>
+
+
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 15</div>
+                <img src="20190728_142113 (2).jpg" style="width:100%">
+                <div class="text">schodiště s osvětlením</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">8 / 15</div>
+                <img src="20220217-0027.jpg" style="width:100%">
+                <div class="text">schodiště s osvětlením</div>
+            </div>
+
+
+            <div class="mySlides fade">
+                <div class="numbertext">9 / 15</div>
+                <img src="20220217-0029.jpg" style="width:100%">
+                <div class="text">schodiště s osvětlením</div>
+            </div>
+
+
+            <div class="mySlides fade">
+                <div class="numbertext">10 / 15</div>
+                <img src="20220217-0026.jpg" style="width:100%">
+                <div class="text">schodiště se zábradlím</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">11/ 15</div>
+                <img src="20220303-0011.jpg" style="width:100%">
+                <div class="text">schodiště se zábradlím</div>
+            </div>
+
+
+            <div class="mySlides fade">
+                <div class="numbertext">12 / 15</div>
+                <img src="20220217-0033.jpg" style="width:100%">
+                <div class="text">schodiště se zábradlím</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">13 / 15</div>
+                <img src="20220219_105418.jpg" style="width:100%">
+                <div class="text">Schody z masivu</div>
+            </div>
+
+
+            <div class="mySlides fade">
+                <div class="numbertext">14 / 15</div>
+                <img src="20220217-0013.jpg" style="width:100%">
+                <div class="text">Schody z masivu</div>
+            </div>
+
+
+            <div class="mySlides fade">
+                <div class="numbertext">15 / 15</div>
+                <img src="20220217-0017.jpg" style="width:100%">
+                <div class="text">Schody z masivu</div>
+            </div>
+
+
+
+
+
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+            <span class="dot" onclick="currentSlide(9)"></span>
+            <span class="dot" onclick="currentSlide(10)"></span>
+            <span class="dot" onclick="currentSlide(11)"></span>
+            <span class="dot" onclick="currentSlide(12)"></span>
+            <span class="dot" onclick="currentSlide(13)"></span>
+            <span class="dot" onclick="currentSlide(14)"></span>
+            <span class="dot" onclick="currentSlide(15)"></span>
+        </div>
+
+
+
+
+
+        <!--
         <div class="kontejner">
 
             <div class="foto" id="vinyl">
                 <img src="20220303-0007.jpg" alt="Vinylové schodiště">
-                <!--     <p class="fotka"> nové schodiště </p> -->
+              
             </div>
 
             <div class="foto">
                 <img src="20200808_130955.jpg" alt="Vinylové schodiště">
-                <!--  <p class="fotka">nové schodiště </p> -->
+               
             </div>
 
             <div class="foto">
                 <img src="20201207_184353.jpg" alt="Vinylové schodiště">
-                <!-- <p class="fotka">nové schodiště </p>  -->
+               
             </div>
-
+4
             <div class="foto" id="lamino">
                 <img src="20180118_133606(0).jpg" alt="Laminátové schody">
-                <!--      <p class="fotka">obkládané staré schody </p>  -->
+               
             </div>
 
 
             <div class="foto">
                 <img src="20200510_131005.jpg" alt="Laminátové schody">
-                <!--      <p class="fotka">obkládané staré schody </p>   -->
+           
             </div>
 
             <div class="foto">
                 <img src="20210723_123323.jpg" alt="Laminátové schody">
-                <!--     <p class="fotka">obkládané staré schody </p>   -->
+               
             </div>
 
             <div class="foto" id="osvetleni">
                 <img src="20190728_142113 (2).jpg" alt="schodiště s osvětlením">
-                <!--   <p class="fotka">schodiště s osvětlením </p>  -->
+              
             </div>
 
             <div class="foto">
                 <img src="20220217-0027.jpg" alt="schodiště s osvětlením">
-                <!--     <p class="fotka">schodiště s osvětlením </p>  -->
+               
             </div>
-
+9
             <div class="foto">
                 <img src="20220217-0029.jpg" alt="schodiště s osvětlením">
-                <!--    <p class="fotka">schodiště s osvětlením </p>  -->
+               
             </div>
 
 
             <div class="foto" id="zabradli">
                 <img src="20220217-0026.jpg" alt="schodiště se zábradlím">
-                <!--    <p class="fotka">schodiště se zábradlím </p>  -->
+             
             </div>
 
             <div class="foto">
                 <img src="20220303-0011.jpg" alt="schodiště se zábradlím">
-                <!--      <p class="fotka">schodiště se zábradlím </p>   -->
+               
             </div>
 
             <div class="foto">
                 <img src="20220217-0033.jpg" alt="schodiště se zábradlím">
-                <!--       <p class="fotka">schodiště se zábradlím </p>   -->
+           
             </div>
 
 
 
             <div class="foto" id="masiv">
                 <img src="20220219_105418.jpg" alt="Schody z masivu">
-                <!--     <p class="fotka">schody z masivu </p>  -->
+               
             </div>
-            <!--
+            
             <div class="foto">
                 <img src="IMG-20220217-WA0013.jpg" alt="Schody z masivu">
-                    <p class="fotka">schody z masivu </p>  
+                   
         </div>
 
-        -->
+    
             <div class="foto">
                 <img src="20220217-0017.jpg" alt="Schody z masivu">
-                <!--    <p class="fotka">schody z masivu </p>  -->
+               
             </div>
 
         </div>
+    -->
     </div>
 
     <!-- sekce Kontakt-->
 
-    <h2 class="linka" id="kontakty"> Kontakt </h2>
-    <div class="kontakt">
+    <h2 data-wow-delay="0.5s" class="linka animate__animated animate__fadeIn  wow slideInLeft class=" id="kontakty"> Kontakt </h2>
+    <div data-wow-delay="0.5s" class="kontakt animate__animated animate__fadeIn  wow slideInLeft">
 
         <div class="vlevo">
             <p>
@@ -263,6 +407,9 @@
 
                 <br>
             </p>
+
+
+
         </div>
         <!--
         <p class="mini2"> Fyzická osoba podnikající dle živnostenského zákona nezapsaná v obchodním rejstříku
@@ -331,7 +478,15 @@
     </p>
 </footer>
 
+<script src="wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="slick.min.js"></script>
 <script src="script.js"></script>
+
+
 
 
 
